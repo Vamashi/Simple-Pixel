@@ -10,9 +10,9 @@ class Config:
     def __init__(self):
         self.TEOIC = False # TEOIC - Throw Error On Incorrect Config. Etc: Will the error been throwed, when 
         # you make a mistake in this config. Default is False. 
-        self.PlayerMoveSpeed = 2 # Basic player move speed. Default is 16.
+        self.PlayerMoveSpeed = 2 # Basic player move speed. Default is 2.
         self.PlayerGravity = 1 # Player gravity. Default is 1.
-        self.PlayerUndead = True # Toggle "god" mode.
+        self.PlayerUndead = False # Toggle "god" mode.
 
 class CheckConfiguration:
     def getExceptions(self):
